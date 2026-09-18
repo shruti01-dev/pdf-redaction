@@ -34,16 +34,3 @@ Output:
 ```text
 installer_output/PDF-Redaction-Setup.exe
 ```
-
-## What is in this repo
-
-**Users** only need the Setup.exe from [Releases](https://github.com/shruti01-dev/pdf-redaction/releases/latest).
-
-**Developers** need:
-
-- `PDFRedaction.py` — app
-- `requirements.txt` — PyQt5, PyMuPDF, Pillow
-- `pdf_redaction.spec` — PyInstaller build
-- `build-exe.bat` / `build-installer.bat` — Windows build
-- `installer/pdf_redaction.iss` — Setup.exe
-- `assets/` — icon
